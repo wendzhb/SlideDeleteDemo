@@ -28,9 +28,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         listView = (ListView) findViewById(R.id.lv);
 
-
-
-
         mData=new ArrayList<>();
         for(int i=0;i<200;i++){
             mData.add("文本"+i);
